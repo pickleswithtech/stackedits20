@@ -42,7 +42,8 @@
     <div id="content">Loading README...</div>
     <script>
         function loadReadme() {
-            fetch("README.md", { cache: "no-cache" })
+            const timestamp = new Date().getTime(); // Unique cache-busting value
+            fetch(`README.md?nocache=${timestamp}`)
                 .then(response => response.text())
                 .then(markdown => {
                     document.getElementById("content").innerHTML = marked.parse(markdown);
@@ -58,3 +59,4 @@
     </script>
 </body>
 </html>
+
