@@ -68,6 +68,6 @@ Now, enter the following command `./build/prepare-fake-ota.sh out/device_**_usrm
 That will create the files for the next step.
 ### Step 4
 Once that other command finished run `./build/system-image-from-ota.sh ota/ubuntu_command images`
-That command will prepare the image files. (.img) dhuvewyv
+That command will prepare the image files. (.img)
 
 
