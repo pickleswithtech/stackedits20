@@ -19,11 +19,7 @@
 <body>
     <div id="content">Loading README...</div>
     <script>
-        const owner = "pickleswithtech";
-        const repo = "stackedits20";
-        const url = `https://raw.githubusercontent.com/${owner}/${repo}/main/README.md`;
-
-        fetch(url)
+        fetch("README.md")
             .then(response => response.text())
             .then(markdown => {
                 document.getElementById("content").innerHTML = marked.parse(markdown);
