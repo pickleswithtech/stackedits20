@@ -78,8 +78,11 @@ If you done it all correctly you will have the following files!
 - system.img (not necessary)
 - boot.img
 # Step 5. Install the files
-First, we need to install TWRP (Team Win Recovery Project)
+First, we need to install [TWRP (Team Win Recovery Project)
 First install [Heimdall](https://glassechidna.com.au/heimdall/#downloads)
+When you have installed Hemidall run ````
+heimdall flash --RECOVERY /path/to/twrp
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDY2MDI4NDAsMTY3Mjg2MDg0OV19
+eyJoaXN0b3J5IjpbMTQ1MDM2ODE5OCwxNjcyODYwODQ5XX0=
 -->
