@@ -79,7 +79,7 @@ If you done it all correctly you will have the following files!
 - boot.img
 # Step 5. Install the files
 First, we need to install TWRP (Team Win Recovery Project)
-First 
+First install [Heimdall](https://glassechidna.com.au/heimdall/#downloads)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzA3Mzc0NiwxNjcyODYwODQ5XX0=
+eyJoaXN0b3J5IjpbLTE4NDY2MDI4NDAsMTY3Mjg2MDg0OV19
 -->
