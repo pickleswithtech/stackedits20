@@ -79,6 +79,7 @@ If you done it all correctly you will have the following files!
 - boot.img
 # Step 5. Install the files
 First, we need to install TWRP (Team Win Recovery Project)
+First 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMwODI0NDQsMTY3Mjg2MDg0OV19
+eyJoaXN0b3J5IjpbMTA2NzA3Mzc0NiwxNjcyODYwODQ5XX0=
 -->
