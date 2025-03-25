@@ -82,8 +82,8 @@ First, we need to install [TWRP (Team Win Recovery Project)](https://dl.twrp.me/
 First install [Heimdall](https://glassechidna.com.au/heimdall/#downloads)
 When you have installed Hemidall run ````
 heimdall flash --RECOVERY /path/to/recovery.img
-#- Note: Replace /path/to/recovery with the path of your TWRP image file
+> **Note: Replace /path/to/recovery with the path of your TWRP image file
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0NTIxMDQ0LDE2NzI4NjA4NDldfQ==
+eyJoaXN0b3J5IjpbLTE0NzgxMzEwOCwxNjcyODYwODQ5XX0=
 -->
