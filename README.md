@@ -1,4 +1,5 @@
 
+
 ## Install Ubuntu Touch on Samsung Galaxy S20 5G [(Made by Sota4Ever on Github)](https://github.com/Sota4Ever)
 ### [Preview of Ubuntu Touch running on the S20 5G](https://github.com/pickleswithtech/SamsungS20UbuntuTouch/blob/halium-13/SamsungGalaxyS20.md) 
 ### Welcome, to my guide. Today i will be showing you how to compile the kernel to install Ubuntu Touch on a Samsung Galaxy S20 5G with this basic guide. Let's get started!
@@ -67,7 +68,16 @@ That command will build some stuff for the next step. Wait for it to finish.
 Now, enter the following command `./build/prepare-fake-ota.sh out/device_**_usrmerge.tar.xz ota`
 That will create the files for the next step.
 ### Step 4
-Once that other command finished run `./build/system-image-from-ota.sh ota/ubuntu_command images`
-That command will prepare the image files. (.img)
+When that has finished run `./build/system-image-from-ota.sh ota/ubuntu_command images`
+That command will prepare the image files (.img).
 
+If you done it all correctly you will have the following files!
 
+ - rootfs.img
+- dtbo.img (not necessary)
+- system.img (not necessary)
+- boot.img
+# Step 5. Install the files
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTY3Mjg2MDg0OV19
+-->
